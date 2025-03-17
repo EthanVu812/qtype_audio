@@ -1,0 +1,71 @@
+
+#page-mod-quiz-attempt .qtype_audio {
+    position: fixed;  /* Thay đổi từ absolute thành fixed */
+    z-index: 1047;
+    top: 0;          /* Thay đổi từ 50% thành 0 */
+    left: 0;         /* Thay đổi từ 50% thành 0 */
+    width: 100vw;
+    height: 100vh;
+    background: #00000070;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+#page-mod-quiz-attempt .qtype_audio .start_audio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+#page-mod-quiz-attempt .qtype_audio .start_audio .icon_lestening {
+
+}
+#page-mod-quiz-attempt .qtype_audio .start_audio .icon_lestening .fa-5xl {
+    font-size: 8rem;
+    line-height: 0.5em;
+}
+#page-mod-quiz-attempt .qtype_audio .description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1rem;
+}
+#page-mod-quiz-attempt .qtype_audio .description p {
+    margin: 0;
+}
+#page-mod-quiz-attempt .qtype_audio .description .btn-play-audio, 
+#page-mod-quiz-attempt .qtype_audio .description .btn-play-audio-continue{
+    background: #000000;
+    padding: .75em 1.5em;
+    border-radius: 3px;
+    border: 0;
+    margin-left: .15em;
+    cursor: pointer;
+    color: #fff;
+}
+#page-mod-quiz-attempt .audio-playing {
+    margin-left: 10px;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.audio-question .que {
+    margin: 0;
+}
+.audio-question .que .content {
+    margin-left: 0;
+}
+.audio-question .que .content .formulation {
+    background: none;
+    border-color: #fff;
+    margin-bottom: 0;
+    padding: 0 1rem;
+}
+.audio-question  .que .content .formulation audio {
+    width: 100%;
+}
